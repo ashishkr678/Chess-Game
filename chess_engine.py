@@ -313,23 +313,6 @@ if __name__=="__main__":
 
     newengine = Engine(fen)
 
-
-    # squares = newengine.board.pieces(1, chess.WHITE)
-    # for square in squares:
-    #     print (square)
-    # print(squares)
-
-    # print(newengine.board)
-    # print(newengine.order_moves())
-
-    # print(newengine.material_eval())
-    # print(newengine.lazy_eval())
-
-    # start_time = time.time()
-    # print(newengine.calculate(3))
-    # print(newengine.total_leaves())
-    # print("Time taken:", time.time() - start_time)
-
     start_time = time.time()
     print(newengine.calculate_ab(4))
     print(newengine.total_leaves())
