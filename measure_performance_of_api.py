@@ -1,6 +1,7 @@
 import requests
 import timeit
 
+# First run the flask app then run this file...
 # Measure the perfornance 
 def measure_api_performance():
     base_url = "http://127.0.0.1:5000"
